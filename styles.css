@@ -1,0 +1,42 @@
+#pet {
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  color: black;
+  box-shadow:7px 7px black;
+  border-color: black;
+  border-radius: 20px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.status {
+  display:flex; 
+  gap:10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+button {
+  padding: 10px 14px;
+  border: 1px solid #333;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:25vw;
+}
+
+body {
+  background-color: lightblue;
+}
